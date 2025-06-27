@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(35, 35,85);
+}
+
+
+
+
+
+
+/*navigation*/
+
+.nav{
+    font-family: calibri;
+    display: flex;
+    padding: 15px 30px;
+    overflow: hidden;
+    background-color: #65ADF5;
+    justify-content: space-between;
+    height:70px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    opacity: 0.8;
+    letter-spacing:1.5px;
+  }
+  .nav ul{
+        list-style-type: none;
+  }
+   .nav ul a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right:5px;
+  }
+  .icon{
+      padding: 15px;
+      font-size: 38px;
+      font-weight:800;
+      cursor: pointer;
+      color: white;
+      margin-right: -100px;
+      margin-left: -20px;
+  }
+  .nav li {
+      margin: 0 2px;
+      float: left;
+  }
+   li a:hover {
+    background-color: #08396A;
+    border-radius: 20px;
+  }
+  .space{
+      padding: 20px;
+      display: flex;
+      margin-right: -50px;
+      height: 35px;
+      line-height: 35px;
+      
+  }
+  
+  
+  .Profile a{
+      display: flex;
+      background-color: #2664AB;
+      border-radius: 50px;
+      background: url("../images/user.jpg");
+      background-size: 100% 100%;
+      width: 40px;
+      height: 40px;
+      border: 2px solid #fff;
+      
+  }
+  .Profile  a:hover{
+      
+      background-color: #fff;
+      border-radius: 50px;
+  }
+  
+  .active a{
+      display: flex;
+      background-color: #08396A;
+      border-radius: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+#features{
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+}
+
+
+
+#features .fea-box{
+    background: #f9f9f7;
+    text-align: start;
+}
+
+
+
+#features .fea-box i{
+    font-size: 2.3rem;
+    color: rgb(44,44,80);
+}
+
+
+
+#exam{
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    margin-bottom: 30px;
+}
+
+#shuttle{
+    position: absolute;
+    right: 30%;
+    top: 80%;
+}
+
+
+#mail{
+    position: absolute;
+    left: 30%;
+    top: 60%;
+    margin-bottom: 30px;
+}
+
+#results{
+    position: absolute;
+    right: 35%;
+    top: 70%;
+    margin-bottom: 30px;
+}
+
+#pass{
+    position: absolute;
+    left: 30%;
+    top: 80%;
+}
+
+#office{
+    position: absolute;
+    right: 33.5%;
+    top: 60%;
+    margin-bottom: 30px;
+}
+
+
